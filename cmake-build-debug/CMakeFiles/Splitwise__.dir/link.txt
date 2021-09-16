@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Splitwise__.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Splitwise__.dir/objects.a @CMakeFiles\Splitwise__.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Splitwise__.dir/objects.a -Wl,--no-whole-archive -o Splitwise__.exe -Wl,--out-implib,libSplitwise__.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Splitwise__.dir\linklibs.rsp
